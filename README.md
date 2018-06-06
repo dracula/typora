@@ -1,8 +1,8 @@
-# Dracula for Typora(https://typora.io/)
+# Dracula for [Typora](https://typora.io/)
 
-> A dark theme for Typora(https://typora.io/).
+> A dark theme for [Typora](https://typora.io/).
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/sublime.png)
+![Screenshot](https://raw.githubusercontent.com/oguhpereira/Dracula-Typora/master/Typora.PNG)
 
 ## Install
 
