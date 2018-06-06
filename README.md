@@ -6,7 +6,7 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/x](https://draculatheme.com/Typora).
+All instructions can be found at [draculatheme.com/Typora](https://draculatheme.com/Typora).
 
 ## Team
 
