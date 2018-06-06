@@ -2,27 +2,44 @@
 @import "dracula/codeblock.dark.css";
 @import "dracula/sourcemode.dark.css";
 
+
+
 :root {
-    --bg-color:  #363B40;
-    --side-bar-bg-color: #2E3033;
-    --text-color: #b8bfc6;
+    /* Dracula theme */
+    --dracula-background:#282a36;
+    --dracula-current-line:#44475a;
+    --dracula-section:#44475a;
+    --dracula-foreground:#f8f8f2;
+    --dracula-comment:#6272a4;
+    --dracula-cyan:#8be9fd;
+    --dracula-green:#50fa7b;
+    --dracula-orange:#ffb86c;
+    --dracula-pink:#ff79c6;
+    --dracula-purple:#bd93f9;
+    --dracula-red:#ff5555;
+    --dracula-yellow:#f1fa8c;
+    /* End Dracula theme */
 
-    --select-text-bg-color:#4a89dc;
+    --bg-color: var(--dracula-background);
+    --side-bar-bg-color: var(--dracula-section);
+    --text-color: var(--dracula-comment);
 
-    --item-hover-bg-color: #0a0d16;
-    --control-text-color: #b7b7b7;
-    --control-text-hover-color: #eee;
-    --window-border: 1px dashed #9b9b9b;
+    --select-text-bg-color:var(--dracula-current-line);
 
-    --active-file-bg-color: rgb(34, 34, 34);
-    --active-file-border-color: #8d8df0;
+    --item-hover-bg-color:  var(--dracula-section);
+    --control-text-color: var(--dracula-foreground);
+    --control-text-hover-color: var(--dracula-cyan);
+    --window-border: 1px dashed var(--dracula-background);
 
-    --primary-color: #a3d5fe;
+    --active-file-bg-color: var(--dracula-background);
+    --active-file-border-color: var(--dracula-section);
+
+    --primary-color: var(--dracula-cyan);
 
     --active-file-text-color: white;
     --item-hover-bg-color: #70717d;
     --item-hover-text-color: white;
-    --primary-color: #6dc1e7;
+    --primary-color: var(--dracula-cyan);
 }
 
 html {
@@ -33,7 +50,7 @@ html,
 body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background: #363B40;
+    background: var(--dracula-background);
     background: var(--bg-color);
     fill: currentColor;
 }
