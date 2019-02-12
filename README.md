@@ -6,7 +6,9 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/Typora](https://draculatheme.com/Typora).
+1. Open Theme Folder. (see instructions below)
+2. Copy or move .css file and related resources, like fonts or images, into the newly opened folder.
+3. Restart Typora, then select it from Themes menu.
 
 ## Team
 
