@@ -3,43 +3,50 @@
 
 /** code highlight */
 
-.cm-s-inner .cm-variable,
-.cm-s-inner .cm-operator,
+.cm-s-inner .cm-variable {
+    color: var(--dracula-green)
+}
+
+.cm-s-inner .cm-operator {
+    color: var(--dracula-pink)
+}
+
 .cm-s-inner .cm-property {
-    color: #b8bfc6;
+    color: var(--dracula-foreground);
 }
 
 .cm-s-inner .cm-keyword {
-    color: #C88FD0;
+    color: var(--dracula-pink);
 }
 
 .cm-s-inner .cm-tag {
-    color: #7DF46A;
+    color: var(--dracula-pink);
 }
 
 .cm-s-inner .cm-attribute {
-    color: #7575E4;
+    color: var(--dracula-green);
 }
 
 .CodeMirror div.CodeMirror-cursor {
-    border-left: 1px solid #b8bfc6;
+    border-left: 1px solid var(--dracula-foreground);
     z-index: 3;
 }
 
-.cm-s-inner .cm-string {
-    color: #D26B6B;
+.cm-s-inner .cm-string,
+.cm-s-inner .cm-string-2 {
+    color: var(--dracula-yellow);
 }
 
 .cm-s-inner .cm-comment,
 .cm-s-inner.cm-comment {
-    color: #DA924A;
+    color: var(--dracula-comment);
 }
 
 .cm-s-inner .cm-header,
-.cm-s-inner .cm-def,
 .cm-s-inner.cm-header,
+.cm-s-inner .cm-def,
 .cm-s-inner.cm-def {
-    color: #8d8df0;
+    color: var(--dracula-cyan);
 }
 
 .cm-s-inner .cm-quote,
@@ -63,47 +70,44 @@
     color: #50e650;
 }
 
-.cm-s-inner .cm-string-2 {
-    color: #f50;
-}
-
 .cm-s-inner .cm-meta,
 .cm-s-inner .cm-qualifier {
-    color: #b7b3b3;
+    color: var(--dracula-green);
 }
 
 .cm-s-inner .cm-builtin {
-    color: #f3b3f8;
+    color: var(--dracula-green);
 }
 
 .cm-s-inner .cm-bracket {
-    color: #997;
+    color: var(--dracula-foreground);
 }
 
 .cm-s-inner .cm-atom,
 .cm-s-inner.cm-atom {
-    color: #84B6CB;
+    color: var(--dracula-cyan);
 }
 
 .cm-s-inner .cm-number {
-    color: #64AB8F;
+    color: var(--dracula-purple);
 }
 
 .cm-s-inner .cm-variable {
-    color: #b8bfc6;
+    color: var(--dracula-foreground);
 }
 
 .cm-s-inner .cm-variable-2 {
-    color: #9FBAD5;
+    color: var(--dracula-foreground);
 }
 
 .cm-s-inner .cm-variable-3 {
-    color: #1cc685;
+    color: var(--dracula-cyan);
+    font-style: italic;
 }
 
 .CodeMirror-selectedtext,
 .CodeMirror-selected {
-    background: #4a89dc;
+    background: var(--dracula-current-line);
     color: #fff !important;
     text-shadow: none;
 }
