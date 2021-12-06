@@ -1,7 +1,6 @@
 @import "dracula/mermaid.dark.css";
 @import "dracula/codeblock.dark.css";
 @import "dracula/sourcemode.dark.css";
-@import url(https://fonts.googleapis.com/css?family=Fira+Code);
 
 :root {
   /* Dracula theme */
@@ -934,10 +933,4 @@ footer {
   margin-left: -1.3em;
   margin-top: calc(1rem - 10px);
   -webkit-appearance: none;
-}
-
-#typora-source {
-  font-family: "Fira Code";
-  font-size: inherit;
-  --monospace: "Fira Code"; /* for code blocks and inline code inside source code mode */
 }
