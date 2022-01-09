@@ -41,6 +41,14 @@
   --primary-color: var(--dracula-cyan);
   /* implicit mathjax edit panel background color */
   --rawblock-edit-panel-bd: var(--dracula-math);
+  --monospace: "Fira Code", "Source Code", "Consolas", monospace; /* seems to be the new way to do this */
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Fira Code Retina"), local("Fira Code Regular"), local("Fira Code"), url("./Dracula/FiraCode-VF.woff2") format("woff2");
 }
 
 html {
